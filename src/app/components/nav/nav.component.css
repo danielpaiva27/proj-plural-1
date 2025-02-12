@@ -5,8 +5,33 @@
 
 .nav-link{
   color: black !important;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .nav-link:hover{
   color: #b88e2f !important;
+}
+
+.logo{
+  width: auto;
+  height: 50px;
+  padding: 8px;
+}
+
+i{
+  margin-top: 16px;
+  padding-right: 18px;
+  padding-left: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+i:hover{
+  color: #b88e2f;
+}
+
+.nav-cont{
+  width: 300px;
 }
