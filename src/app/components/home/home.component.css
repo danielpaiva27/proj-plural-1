@@ -1,18 +1,50 @@
-.container {
+.container-fluid {
   background-image: url(/pexels-cottonbro-8860923.jpg) !important;
   background-size: cover;
-  min-height: 95vh;
+  min-height: 87.5vh;
   min-width: 100%;
   background-position: bottom;
   position: relative;
 }
 
 .mini-cont {
-  background-color: #f6e4ce;
+  background-color: #FFF3E3;
   width: 45vw;
   height: 60vh;
   position: absolute;
   top: 55%;
   left: 74%;
   transform: translate(-50%, -50%);
+  padding: 10px 20px;
+
 }
+
+.cont-text{
+  margin-left: 3vw;
+  width: 35vw;
+}
+.mini-cont label{
+  margin-top: 5vh ;
+  font-size: 1.2vw;
+}
+
+.mini-cont label,
+.mini-cont p{
+  color: #333333;
+}
+
+.mini-cont label,
+.mini-cont p,
+.mini-cont h1{
+  padding: 3px;
+}
+
+.mini-cont p{
+  font-size: 1.3vw;
+}
+
+.mini-cont h1{
+  color: #B88E2F;
+  font-size: 2.8vw;
+}
+
