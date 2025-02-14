@@ -1,0 +1,18 @@
+.container {
+  background-image: url(/pexels-cottonbro-8860923.jpg) !important;
+  background-size: cover;
+  min-height: 95vh;
+  min-width: 100%;
+  background-position: bottom;
+  position: relative;
+}
+
+.mini-cont {
+  background-color: #f6e4ce;
+  width: 45vw;
+  height: 60vh;
+  position: absolute;
+  top: 55%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+}

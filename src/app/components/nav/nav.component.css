@@ -2,6 +2,17 @@
   background-color: #FFFFFF !important;
 
 }
+.nav-container{
+  padding-top: 3px !important;
+}
+
+.nav-bar{
+  margin-top: 5px !important;
+}
+
+.nav-icons{
+  margin-top: 6px !important;
+}
 
 .nav-link{
   color: black !important;
@@ -17,7 +28,7 @@
 .logo{
   width: auto;
   height: 50px;
-  padding: 8px;
+  margin-top: 6px;
 }
 
 i{
@@ -26,6 +37,7 @@ i{
   padding-left: 18px;
   cursor: pointer;
   transition: 0.3s;
+
 }
 
 i:hover{
